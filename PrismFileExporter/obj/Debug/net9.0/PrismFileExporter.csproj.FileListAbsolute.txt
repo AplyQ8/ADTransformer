@@ -1,0 +1,15 @@
+D:\GitHub Repos\ADTransformer_dotnet\PrismFileExporter\bin\Debug\net9.0\PrismFileExporter.deps.json
+D:\GitHub Repos\ADTransformer_dotnet\PrismFileExporter\bin\Debug\net9.0\PrismFileExporter.dll
+D:\GitHub Repos\ADTransformer_dotnet\PrismFileExporter\bin\Debug\net9.0\PrismFileExporter.pdb
+D:\GitHub Repos\ADTransformer_dotnet\PrismFileExporter\bin\Debug\net9.0\Utilities.dll
+D:\GitHub Repos\ADTransformer_dotnet\PrismFileExporter\bin\Debug\net9.0\Utilities.pdb
+D:\GitHub Repos\ADTransformer_dotnet\PrismFileExporter\obj\Debug\net9.0\PrismFileExporter.csproj.AssemblyReference.cache
+D:\GitHub Repos\ADTransformer_dotnet\PrismFileExporter\obj\Debug\net9.0\PrismFileExporter.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Repos\ADTransformer_dotnet\PrismFileExporter\obj\Debug\net9.0\PrismFileExporter.AssemblyInfoInputs.cache
+D:\GitHub Repos\ADTransformer_dotnet\PrismFileExporter\obj\Debug\net9.0\PrismFileExporter.AssemblyInfo.cs
+D:\GitHub Repos\ADTransformer_dotnet\PrismFileExporter\obj\Debug\net9.0\PrismFileExporter.csproj.CoreCompileInputs.cache
+D:\GitHub Repos\ADTransformer_dotnet\PrismFileExporter\obj\Debug\net9.0\PrismFil.21C17BD4.Up2Date
+D:\GitHub Repos\ADTransformer_dotnet\PrismFileExporter\obj\Debug\net9.0\PrismFileExporter.dll
+D:\GitHub Repos\ADTransformer_dotnet\PrismFileExporter\obj\Debug\net9.0\refint\PrismFileExporter.dll
+D:\GitHub Repos\ADTransformer_dotnet\PrismFileExporter\obj\Debug\net9.0\PrismFileExporter.pdb
+D:\GitHub Repos\ADTransformer_dotnet\PrismFileExporter\obj\Debug\net9.0\ref\PrismFileExporter.dll

@@ -1,0 +1,11 @@
+D:\GitHub Repos\ADTransformer_dotnet\Utilities\bin\Release\net9.0\Utilities.deps.json
+D:\GitHub Repos\ADTransformer_dotnet\Utilities\bin\Release\net9.0\Utilities.dll
+D:\GitHub Repos\ADTransformer_dotnet\Utilities\bin\Release\net9.0\Utilities.pdb
+D:\GitHub Repos\ADTransformer_dotnet\Utilities\obj\Release\net9.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Repos\ADTransformer_dotnet\Utilities\obj\Release\net9.0\Utilities.AssemblyInfoInputs.cache
+D:\GitHub Repos\ADTransformer_dotnet\Utilities\obj\Release\net9.0\Utilities.AssemblyInfo.cs
+D:\GitHub Repos\ADTransformer_dotnet\Utilities\obj\Release\net9.0\Utilities.csproj.CoreCompileInputs.cache
+D:\GitHub Repos\ADTransformer_dotnet\Utilities\obj\Release\net9.0\Utilities.dll
+D:\GitHub Repos\ADTransformer_dotnet\Utilities\obj\Release\net9.0\refint\Utilities.dll
+D:\GitHub Repos\ADTransformer_dotnet\Utilities\obj\Release\net9.0\Utilities.pdb
+D:\GitHub Repos\ADTransformer_dotnet\Utilities\obj\Release\net9.0\ref\Utilities.dll

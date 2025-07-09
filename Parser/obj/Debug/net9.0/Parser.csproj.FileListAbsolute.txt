@@ -1,0 +1,11 @@
+D:\GitHub Repos\ADTransformer_dotnet\Parser\bin\Debug\net9.0\Parser.deps.json
+D:\GitHub Repos\ADTransformer_dotnet\Parser\bin\Debug\net9.0\Parser.dll
+D:\GitHub Repos\ADTransformer_dotnet\Parser\bin\Debug\net9.0\Parser.pdb
+D:\GitHub Repos\ADTransformer_dotnet\Parser\obj\Debug\net9.0\Parser.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Repos\ADTransformer_dotnet\Parser\obj\Debug\net9.0\Parser.AssemblyInfoInputs.cache
+D:\GitHub Repos\ADTransformer_dotnet\Parser\obj\Debug\net9.0\Parser.AssemblyInfo.cs
+D:\GitHub Repos\ADTransformer_dotnet\Parser\obj\Debug\net9.0\Parser.csproj.CoreCompileInputs.cache
+D:\GitHub Repos\ADTransformer_dotnet\Parser\obj\Debug\net9.0\Parser.dll
+D:\GitHub Repos\ADTransformer_dotnet\Parser\obj\Debug\net9.0\refint\Parser.dll
+D:\GitHub Repos\ADTransformer_dotnet\Parser\obj\Debug\net9.0\Parser.pdb
+D:\GitHub Repos\ADTransformer_dotnet\Parser\obj\Debug\net9.0\ref\Parser.dll

@@ -1,0 +1,17 @@
+D:\GitHub Repos\ADTransformer_dotnet\NodeAdapters\bin\Debug\net9.0\NodeAdapters.deps.json
+D:\GitHub Repos\ADTransformer_dotnet\NodeAdapters\bin\Debug\net9.0\NodeAdapters.dll
+D:\GitHub Repos\ADTransformer_dotnet\NodeAdapters\bin\Debug\net9.0\NodeAdapters.pdb
+D:\GitHub Repos\ADTransformer_dotnet\NodeAdapters\bin\Debug\net9.0\Parser.dll
+D:\GitHub Repos\ADTransformer_dotnet\NodeAdapters\bin\Debug\net9.0\PrismCodeGenerator.dll
+D:\GitHub Repos\ADTransformer_dotnet\NodeAdapters\bin\Debug\net9.0\Parser.pdb
+D:\GitHub Repos\ADTransformer_dotnet\NodeAdapters\bin\Debug\net9.0\PrismCodeGenerator.pdb
+D:\GitHub Repos\ADTransformer_dotnet\NodeAdapters\obj\Debug\net9.0\NodeAdapters.csproj.AssemblyReference.cache
+D:\GitHub Repos\ADTransformer_dotnet\NodeAdapters\obj\Debug\net9.0\NodeAdapters.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Repos\ADTransformer_dotnet\NodeAdapters\obj\Debug\net9.0\NodeAdapters.AssemblyInfoInputs.cache
+D:\GitHub Repos\ADTransformer_dotnet\NodeAdapters\obj\Debug\net9.0\NodeAdapters.AssemblyInfo.cs
+D:\GitHub Repos\ADTransformer_dotnet\NodeAdapters\obj\Debug\net9.0\NodeAdapters.csproj.CoreCompileInputs.cache
+D:\GitHub Repos\ADTransformer_dotnet\NodeAdapters\obj\Debug\net9.0\NodeAdap.72D529BE.Up2Date
+D:\GitHub Repos\ADTransformer_dotnet\NodeAdapters\obj\Debug\net9.0\NodeAdapters.dll
+D:\GitHub Repos\ADTransformer_dotnet\NodeAdapters\obj\Debug\net9.0\refint\NodeAdapters.dll
+D:\GitHub Repos\ADTransformer_dotnet\NodeAdapters\obj\Debug\net9.0\NodeAdapters.pdb
+D:\GitHub Repos\ADTransformer_dotnet\NodeAdapters\obj\Debug\net9.0\ref\NodeAdapters.dll

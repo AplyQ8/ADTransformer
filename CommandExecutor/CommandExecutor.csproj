@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\NodeAdapters\NodeAdapters.csproj" />
+      <ProjectReference Include="..\ParetoBuilder\ParetoBuilder.csproj" />
+      <ProjectReference Include="..\Parser\Parser.csproj" />
+      <ProjectReference Include="..\PrismCodeGenerator\PrismCodeGenerator.csproj" />
+      <ProjectReference Include="..\PrismFileExporter\PrismFileExporter.csproj" />
+      <ProjectReference Include="..\PrismRunner\PrismRunner.csproj" />
+    </ItemGroup>
+
+</Project>

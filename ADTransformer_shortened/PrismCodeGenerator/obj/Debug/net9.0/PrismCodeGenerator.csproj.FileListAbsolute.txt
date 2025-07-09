@@ -1,0 +1,11 @@
+D:\GitHub Repos\ADTransformer_dotnet\PrismCodeGenerator\bin\Debug\net9.0\PrismCodeGenerator.deps.json
+D:\GitHub Repos\ADTransformer_dotnet\PrismCodeGenerator\bin\Debug\net9.0\PrismCodeGenerator.dll
+D:\GitHub Repos\ADTransformer_dotnet\PrismCodeGenerator\bin\Debug\net9.0\PrismCodeGenerator.pdb
+D:\GitHub Repos\ADTransformer_dotnet\PrismCodeGenerator\obj\Debug\net9.0\PrismCodeGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Repos\ADTransformer_dotnet\PrismCodeGenerator\obj\Debug\net9.0\PrismCodeGenerator.AssemblyInfoInputs.cache
+D:\GitHub Repos\ADTransformer_dotnet\PrismCodeGenerator\obj\Debug\net9.0\PrismCodeGenerator.AssemblyInfo.cs
+D:\GitHub Repos\ADTransformer_dotnet\PrismCodeGenerator\obj\Debug\net9.0\PrismCodeGenerator.csproj.CoreCompileInputs.cache
+D:\GitHub Repos\ADTransformer_dotnet\PrismCodeGenerator\obj\Debug\net9.0\PrismCodeGenerator.dll
+D:\GitHub Repos\ADTransformer_dotnet\PrismCodeGenerator\obj\Debug\net9.0\refint\PrismCodeGenerator.dll
+D:\GitHub Repos\ADTransformer_dotnet\PrismCodeGenerator\obj\Debug\net9.0\PrismCodeGenerator.pdb
+D:\GitHub Repos\ADTransformer_dotnet\PrismCodeGenerator\obj\Debug\net9.0\ref\PrismCodeGenerator.dll

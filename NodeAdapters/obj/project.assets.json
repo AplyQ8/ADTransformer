@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Parser/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Parser.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Parser.dll": {}
+        }
+      },
+      "PrismCodeGenerator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/PrismCodeGenerator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PrismCodeGenerator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Parser/1.0.0": {
+      "type": "project",
+      "path": "../Parser/Parser.csproj",
+      "msbuildProject": "../Parser/Parser.csproj"
+    },
+    "PrismCodeGenerator/1.0.0": {
+      "type": "project",
+      "path": "../PrismCodeGenerator/PrismCodeGenerator.csproj",
+      "msbuildProject": "../PrismCodeGenerator/PrismCodeGenerator.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Parser >= 1.0.0",
+      "PrismCodeGenerator >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\kiril\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\GitHub Repos\\ADTransformer_dotnet\\NodeAdapters\\NodeAdapters.csproj",
+      "projectName": "NodeAdapters",
+      "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\NodeAdapters\\NodeAdapters.csproj",
+      "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\NodeAdapters\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\kiril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "D:\\GitHub Repos\\ADTransformer_dotnet\\Parser\\Parser.csproj": {
+              "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\Parser\\Parser.csproj"
+            },
+            "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismCodeGenerator\\PrismCodeGenerator.csproj": {
+              "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismCodeGenerator\\PrismCodeGenerator.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

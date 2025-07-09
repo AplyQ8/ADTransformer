@@ -1,0 +1,5 @@
+*.zip
+/ConsoleGUI/publish/
+/ConsoleGUI/publish.zip
+/PrismRunner/prism-games-3.2.1/
+/ParetoBuilder/myenv/

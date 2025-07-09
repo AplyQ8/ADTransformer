@@ -1,0 +1,132 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "CommandExecutor/1.0.0": {
+        "dependencies": {
+          "NodeAdapters": "1.0.0",
+          "ParetoBuilder": "1.0.0",
+          "Parser": "1.0.0",
+          "PrismCodeGenerator": "1.0.0",
+          "PrismFileExporter": "1.0.0",
+          "PrismRunner": "1.0.0"
+        },
+        "runtime": {
+          "CommandExecutor.dll": {}
+        }
+      },
+      "NodeAdapters/1.0.0": {
+        "dependencies": {
+          "Parser": "1.0.0",
+          "PrismCodeGenerator": "1.0.0"
+        },
+        "runtime": {
+          "NodeAdapters.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ParetoBuilder/1.0.0": {
+        "runtime": {
+          "ParetoBuilder.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Parser/1.0.0": {
+        "runtime": {
+          "Parser.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PrismCodeGenerator/1.0.0": {
+        "runtime": {
+          "PrismCodeGenerator.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PrismFileExporter/1.0.0": {
+        "dependencies": {
+          "Utilities": "1.0.0"
+        },
+        "runtime": {
+          "PrismFileExporter.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PrismRunner/1.0.0": {
+        "dependencies": {
+          "PrismCodeGenerator": "1.0.0"
+        },
+        "runtime": {
+          "PrismRunner.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Utilities/1.0.0": {
+        "runtime": {
+          "Utilities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommandExecutor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NodeAdapters/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ParetoBuilder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Parser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PrismCodeGenerator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PrismFileExporter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PrismRunner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

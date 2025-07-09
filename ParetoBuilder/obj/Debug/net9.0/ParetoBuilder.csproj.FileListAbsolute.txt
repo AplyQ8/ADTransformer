@@ -1,0 +1,11 @@
+D:\GitHub Repos\ADTransformer_dotnet\ParetoBuilder\bin\Debug\net9.0\ParetoBuilder.deps.json
+D:\GitHub Repos\ADTransformer_dotnet\ParetoBuilder\bin\Debug\net9.0\ParetoBuilder.dll
+D:\GitHub Repos\ADTransformer_dotnet\ParetoBuilder\bin\Debug\net9.0\ParetoBuilder.pdb
+D:\GitHub Repos\ADTransformer_dotnet\ParetoBuilder\obj\Debug\net9.0\ParetoBuilder.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Repos\ADTransformer_dotnet\ParetoBuilder\obj\Debug\net9.0\ParetoBuilder.AssemblyInfoInputs.cache
+D:\GitHub Repos\ADTransformer_dotnet\ParetoBuilder\obj\Debug\net9.0\ParetoBuilder.AssemblyInfo.cs
+D:\GitHub Repos\ADTransformer_dotnet\ParetoBuilder\obj\Debug\net9.0\ParetoBuilder.csproj.CoreCompileInputs.cache
+D:\GitHub Repos\ADTransformer_dotnet\ParetoBuilder\obj\Debug\net9.0\ParetoBuilder.dll
+D:\GitHub Repos\ADTransformer_dotnet\ParetoBuilder\obj\Debug\net9.0\refint\ParetoBuilder.dll
+D:\GitHub Repos\ADTransformer_dotnet\ParetoBuilder\obj\Debug\net9.0\ParetoBuilder.pdb
+D:\GitHub Repos\ADTransformer_dotnet\ParetoBuilder\obj\Debug\net9.0\ref\ParetoBuilder.dll

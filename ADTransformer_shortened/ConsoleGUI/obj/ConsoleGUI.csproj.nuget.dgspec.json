@@ -1,0 +1,595 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GitHub Repos\\ADTransformer_dotnet\\ConsoleGUI\\ConsoleGUI.csproj": {}
+  },
+  "projects": {
+    "D:\\GitHub Repos\\ADTransformer_dotnet\\CommandExecutor\\CommandExecutor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub Repos\\ADTransformer_dotnet\\CommandExecutor\\CommandExecutor.csproj",
+        "projectName": "CommandExecutor",
+        "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\CommandExecutor\\CommandExecutor.csproj",
+        "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\CommandExecutor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kiril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\GitHub Repos\\ADTransformer_dotnet\\NodeAdapters\\NodeAdapters.csproj": {
+                "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\NodeAdapters\\NodeAdapters.csproj"
+              },
+              "D:\\GitHub Repos\\ADTransformer_dotnet\\ParetoBuilder\\ParetoBuilder.csproj": {
+                "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\ParetoBuilder\\ParetoBuilder.csproj"
+              },
+              "D:\\GitHub Repos\\ADTransformer_dotnet\\Parser\\Parser.csproj": {
+                "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\Parser\\Parser.csproj"
+              },
+              "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismCodeGenerator\\PrismCodeGenerator.csproj": {
+                "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismCodeGenerator\\PrismCodeGenerator.csproj"
+              },
+              "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismFileExporter\\PrismFileExporter.csproj": {
+                "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismFileExporter\\PrismFileExporter.csproj"
+              },
+              "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismRunner\\PrismRunner.csproj": {
+                "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismRunner\\PrismRunner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub Repos\\ADTransformer_dotnet\\ConsoleGUI\\ConsoleGUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub Repos\\ADTransformer_dotnet\\ConsoleGUI\\ConsoleGUI.csproj",
+        "projectName": "ConsoleGUI",
+        "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\ConsoleGUI\\ConsoleGUI.csproj",
+        "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\ConsoleGUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kiril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\GitHub Repos\\ADTransformer_dotnet\\CommandExecutor\\CommandExecutor.csproj": {
+                "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\CommandExecutor\\CommandExecutor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub Repos\\ADTransformer_dotnet\\NodeAdapters\\NodeAdapters.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub Repos\\ADTransformer_dotnet\\NodeAdapters\\NodeAdapters.csproj",
+        "projectName": "NodeAdapters",
+        "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\NodeAdapters\\NodeAdapters.csproj",
+        "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\NodeAdapters\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kiril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\GitHub Repos\\ADTransformer_dotnet\\Parser\\Parser.csproj": {
+                "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\Parser\\Parser.csproj"
+              },
+              "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismCodeGenerator\\PrismCodeGenerator.csproj": {
+                "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismCodeGenerator\\PrismCodeGenerator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub Repos\\ADTransformer_dotnet\\ParetoBuilder\\ParetoBuilder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub Repos\\ADTransformer_dotnet\\ParetoBuilder\\ParetoBuilder.csproj",
+        "projectName": "ParetoBuilder",
+        "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\ParetoBuilder\\ParetoBuilder.csproj",
+        "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\ParetoBuilder\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kiril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub Repos\\ADTransformer_dotnet\\Parser\\Parser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub Repos\\ADTransformer_dotnet\\Parser\\Parser.csproj",
+        "projectName": "Parser",
+        "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\Parser\\Parser.csproj",
+        "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\Parser\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kiril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismCodeGenerator\\PrismCodeGenerator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismCodeGenerator\\PrismCodeGenerator.csproj",
+        "projectName": "PrismCodeGenerator",
+        "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismCodeGenerator\\PrismCodeGenerator.csproj",
+        "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismCodeGenerator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kiril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismFileExporter\\PrismFileExporter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismFileExporter\\PrismFileExporter.csproj",
+        "projectName": "PrismFileExporter",
+        "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismFileExporter\\PrismFileExporter.csproj",
+        "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismFileExporter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kiril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\GitHub Repos\\ADTransformer_dotnet\\Utilities\\Utilities.csproj": {
+                "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\Utilities\\Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismRunner\\PrismRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismRunner\\PrismRunner.csproj",
+        "projectName": "PrismRunner",
+        "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismRunner\\PrismRunner.csproj",
+        "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismRunner\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kiril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismCodeGenerator\\PrismCodeGenerator.csproj": {
+                "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\PrismCodeGenerator\\PrismCodeGenerator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub Repos\\ADTransformer_dotnet\\Utilities\\Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub Repos\\ADTransformer_dotnet\\Utilities\\Utilities.csproj",
+        "projectName": "Utilities",
+        "projectPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\Utilities\\Utilities.csproj",
+        "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub Repos\\ADTransformer_dotnet\\Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kiril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+D:\GitHub Repos\ADTransformer_dotnet\ConsoleGUI\publish\ConsoleGUI.pdb
+D:\GitHub Repos\ADTransformer_dotnet\ConsoleGUI\publish\CommandExecutor.pdb
+D:\GitHub Repos\ADTransformer_dotnet\ConsoleGUI\publish\NodeAdapters.pdb
+D:\GitHub Repos\ADTransformer_dotnet\ConsoleGUI\publish\ParetoBuilder.pdb
+D:\GitHub Repos\ADTransformer_dotnet\ConsoleGUI\publish\Parser.pdb
+D:\GitHub Repos\ADTransformer_dotnet\ConsoleGUI\publish\PrismCodeGenerator.pdb
+D:\GitHub Repos\ADTransformer_dotnet\ConsoleGUI\publish\PrismFileExporter.pdb
+D:\GitHub Repos\ADTransformer_dotnet\ConsoleGUI\publish\PrismRunner.pdb
+D:\GitHub Repos\ADTransformer_dotnet\ConsoleGUI\publish\Utilities.pdb
+D:\GitHub Repos\ADTransformer_dotnet\ConsoleGUI\publish\ConsoleGUI.exe
