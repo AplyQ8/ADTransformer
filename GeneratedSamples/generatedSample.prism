@@ -1,0 +1,111 @@
+smg
+
+// Define players
+player attacker
+    Attacker, [attack_a1n2], [attack_a11n13], [attack_a2n10], [attack_a3n4], [attack_a4n5], [attack_a5n9], [attack_a6n19], [attack_a7n23], [attack_a8n16], [attack_a9n18], [attack_end_turn]
+endplayer
+
+player defender
+    Defender, [defense_d1n7], [defense_d2n21], [defense_d3n15], [defense_end_turn]
+endplayer
+
+player gameManager
+    GameManager, [check_gates]
+endplayer
+
+
+//Global variables
+global turn : [0..3] init 0;
+global top_event : bool init false;
+//Attacker variables
+global a1_n2: [0..1] init 0;
+global a3_n4: [0..1] init 0;
+global a4_n5: [0..1] init 0;
+global a5_n9: [0..1] init 0;
+global a2_n10: [0..1] init 0;
+global a11_n13: [0..1] init 0;
+global a8_n16: [0..1] init 0;
+global a9_n18: [0..1] init 0;
+global a6_n19: [0..1] init 0;
+global a7_n23: [0..1] init 0;
+//Defender variables
+global d1_n7: [0..1] init 0;
+global d3_n15: [0..1] init 0;
+global d2_n21: [0..1] init 0;
+
+global attacker_done : bool init false;
+global defender_done : bool init false;
+
+
+
+const int INIT_ATTACKER_BUDGET;
+global attacker_budget: [0..645] init INIT_ATTACKER_BUDGET;
+const int INIT_DEFENDER_BUDGET;
+global defender_budget: [0..60] init INIT_DEFENDER_BUDGET;
+
+
+formula n9_effective = (a5_n9=1);
+formula cm_d1_n8_triggered = (d1_n7=1 & !n9_effective); //<----cm_d1
+formula n8_effective = (cm_d1_n8_triggered);
+formula cm_a4_n6_triggered = (a4_n5=1 & !n8_effective); //<----cm_a4
+formula PIN_n3_triggered = (a3_n4=1 | cm_a4_n6_triggered); //<----PIN
+formula ATM_n1_triggered = (a1_n2=1 & PIN_n3_triggered & a2_n10=1); //<----ATM
+formula n15_effective = (d3_n15=1);
+formula cm_a11_n14_triggered = (a11_n13=1 & !n15_effective); //<----cm_a11
+formula getPassword_n12_triggered = (cm_a11_n14_triggered | a8_n16=1); //<----getPassword
+formula getUserName_n17_triggered = (a8_n16=1 | a9_n18=1); //<----getUserName
+formula n23_effective = (a7_n23=1);
+formula cm_d2_n22_triggered = (d2_n21=1 & !n23_effective); //<----cm_d2
+formula n22_effective = (cm_d2_n22_triggered);
+formula cm_a6_n20_triggered = (a6_n19=1 & !n22_effective); //<----cm_a6
+formula viaOnlineBanking_n11_triggered = (getPassword_n12_triggered & getUserName_n17_triggered & cm_a6_n20_triggered); //<----viaOnlineBanking
+formula stealFA_n0_triggered = (ATM_n1_triggered | viaOnlineBanking_n11_triggered); //<----stealFA
+
+module Attacker
+    [attack_a1n2] turn=1 & a1_n2=0 & attacker_budget>=60 -> (a1_n2'=1) & (attacker_budget'=attacker_budget-60);
+    [attack_a3n4] turn=1 & a3_n4=0 & attacker_budget>=100 -> (a3_n4'=1) & (attacker_budget'=attacker_budget-100);
+    [attack_a4n5] turn=1 & a4_n5=0 & attacker_budget>=20 -> (a4_n5'=1) & (attacker_budget'=attacker_budget-20);
+    [attack_a5n9] turn=1 & a5_n9=0 & attacker_budget>=75 -> (a5_n9'=1) & (attacker_budget'=attacker_budget-75);
+    [attack_a2n10] turn=1 & a2_n10=0 & attacker_budget>=10 -> (a2_n10'=1) & (attacker_budget'=attacker_budget-10);
+    [attack_a11n13] turn=1 & a11_n13=0 & attacker_budget>=120 -> (a11_n13'=1) & (attacker_budget'=attacker_budget-120);
+    [attack_a8n16] turn=1 & a8_n16=0 & attacker_budget>=70 -> (a8_n16'=1) & (attacker_budget'=attacker_budget-70);
+    [attack_a9n18] turn=1 & a9_n18=0 & attacker_budget>=120 -> (a9_n18'=1) & (attacker_budget'=attacker_budget-120);
+    [attack_a6n19] turn=1 & a6_n19=0 & attacker_budget>=10 -> (a6_n19'=1) & (attacker_budget'=attacker_budget-10);
+    [attack_a7n23] turn=1 & a7_n23=0 & attacker_budget>=60 -> (a7_n23'=1) & (attacker_budget'=attacker_budget-60);
+    [attack_end_turn] turn=1 -> (turn'=2) & (attacker_done'=true);
+endmodule
+module Defender
+    [defense_d1n7] turn=0 & d1_n7=0 & defender_budget>=30 -> (d1_n7'=1) & (defender_budget'=defender_budget-30);
+    [defense_d3n15] turn=0 & d3_n15=0 & defender_budget>=10 -> (d3_n15'=1) & (defender_budget'=defender_budget-10);
+    [defense_d2n21] turn=0 & d2_n21=0 & defender_budget>=20 -> (d2_n21'=1) & (defender_budget'=defender_budget-20);
+    [defense_end_turn] turn=0 -> (turn'=1) & (defender_done'=true);
+endmodule
+module GameManager
+    [check_gates] turn=2 -> (top_event'=stealFA_n0_triggered) & (turn'=3);
+endmodule
+
+
+rewards "attacker_cost"
+    [attack_a1n2] true : 60;
+    [attack_a3n4] true : 100;
+    [attack_a4n5] true : 20;
+    [attack_a5n9] true : 75;
+    [attack_a2n10] true : 10;
+    [attack_a11n13] true : 120;
+    [attack_a8n16] true : 70;
+    [attack_a9n18] true : 120;
+    [attack_a6n19] true : 10;
+    [attack_a7n23] true : 60;
+    [attack_end_turn] true : 0;
+endrewards
+rewards "defender_cost"
+    [defense_d1n7] true : 30;
+    [defense_d3n15] true : 10;
+    [defense_d2n21] true : 20;
+    [defense_end_turn] true : 0;
+endrewards
+
+
+label "top_event_reached" = top_event;
+label "system_secure" = !top_event;
+label "end_game" = (turn = 3);
