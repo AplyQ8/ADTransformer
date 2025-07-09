@@ -15,6 +15,57 @@ Optionally, ADTransformer can **automatically generate the Pareto front**, provi
 
 ---
 
+## 🛠️ Tool Design
+
+Our tool follows a modular pipeline architecture, where each component plays a specific role in transforming an **ADTool XML** file into a verified **PRISM model** and producing **Pareto-optimal trade-offs**.
+
+### 📐 Architecture Overview
+
+![Tool Architecture Diagram](Pictures/ADTransformer_design%20(1).png)  
+<sub>*Figure 1: High-level architecture of the tool*</sub>
+
+---
+
+### 🧩 Modules
+
+#### 🔍 Parser
+> This module processes the input **XML file** from ADTool and builds an **internal tree structure** representing the Attack–Defense Tree (ADT).
+
+#### 🔄 Adapter
+> Converts the parsed ADT structure into a format suitable for **PRISM model generation**.
+
+#### 🏗️ PRISM Code Generator
+> Generates the **formal PRISM model** based on the adapted structure, ready for verification by the PRISM model checker.
+
+#### ⚙️ PRISM Runner
+> Invokes the **PRISM model checker** with the generated model and specified properties.  
+> Outputs the results to a `data.csv` file, which contains points on the **Pareto Front**.
+
+#### 📊 Pareto Builder
+> Parses the `data.csv` file and uses a **Python script** to create a visual representation of trade-offs between different security and performance attributes.
+
+---
+
+### 🔄 Data Flow Diagram
+
+![Data Flow Diagram](Pictures/ADTransformer_DFD%20(1).png)  
+<sub>*Figure 2: Data flow from ADTool XML to Pareto trade-off visualization*</sub>
+
+---
+
+### 🧠 Summary
+
+| Module            | Input                  | Output                 | Purpose                               |
+|------------------|------------------------|------------------------|---------------------------------------|
+| Parser           | `adt.xml`              | Internal ADT tree      | Load & parse ADTool tree              |
+| Adapter          | Parsed tree            | Adapted structure      | Transform for PRISM compatibility     |
+| Code Generator   | Adapted structure      | `model.prism`          | Generate PRISM model code             |
+| PRISM Runner     | `model.prism`, props   | `data.csv`             | Run model checker & export results    |
+| Pareto Builder   | `data.csv`             | Pareto chart (image)   | Visualize trade-offs                  |
+
+
+---
+
 ## 🧠 Key Features
 
 - 🔄 **ADTool XML to PRISM** model transformation
