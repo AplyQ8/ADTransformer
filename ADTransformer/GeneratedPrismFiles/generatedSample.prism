@@ -1,0 +1,60 @@
+smg
+
+// Define players
+player attacker
+    Attacker, [attack_a539n141], [attack_a987n142], [attack_end_turn]
+endplayer
+
+player defender
+    Defender, [defense_end_turn]
+endplayer
+
+player gameManager
+    GameManager, [check_gates]
+endplayer
+
+
+//Global variables
+global turn : [0..3] init 0;
+global top_event : bool init false;
+//Attacker variables
+global a539_n141: [0..1] init 0;
+global a987_n142: [0..1] init 0;
+
+global attacker_done : bool init false;
+global defender_done : bool init false;
+
+
+
+const int INIT_ATTACKER_BUDGET;
+global attacker_budget: [0..54] init INIT_ATTACKER_BUDGET;
+
+
+formula g506_n140_triggered = (a539_n141=1 | a987_n142=1); //<----g506
+
+module Attacker
+    [attack_a539n141] turn=1 & a539_n141=0 & attacker_budget>=45 -> (a539_n141'=1) & (attacker_budget'=attacker_budget-45);
+    [attack_a987n142] turn=1 & a987_n142=0 & attacker_budget>=9 -> (a987_n142'=1) & (attacker_budget'=attacker_budget-9);
+    [attack_end_turn] turn=1 -> (turn'=2) & (attacker_done'=true);
+endmodule
+module Defender
+    [defense_end_turn] turn=0 -> (turn'=1) & (defender_done'=true);
+endmodule
+module GameManager
+    [check_gates] turn=2 -> (top_event'=g506_n140_triggered) & (turn'=3);
+endmodule
+
+
+rewards "attacker_cost"
+    [attack_a539n141] true : 45;
+    [attack_a987n142] true : 9;
+    [attack_end_turn] true : 0;
+endrewards
+rewards "defender_cost"
+    [defense_end_turn] true : 0;
+endrewards
+
+
+label "top_event_reached" = top_event;
+label "system_secure" = !top_event;
+label "end_game" = (turn = 3);
