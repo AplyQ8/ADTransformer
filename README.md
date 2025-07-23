@@ -117,3 +117,15 @@ Enable quantitative analysis of attacker/defender interaction
 Automate the bridge between graphical modeling and formal verification
 
 Support decision-making under uncertainty and conflicting objectives
+
+## 🔗 Download
+
+You can download the full ZIP package (371MB) from:
+
+👉 [Download on Google Drive](https://drive.google.com/drive/folders/11iQOhbWvuFRGTa8sNLBlX4F-2rUgpYqb?usp=sharing)
+
+## Contact
+In case you have questions or problems with download link, contact me by
+email: kirill.smih.98@gmail.com
+telegram: @aplyq8
+
