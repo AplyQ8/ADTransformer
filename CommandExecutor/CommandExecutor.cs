@@ -92,8 +92,38 @@ namespace CommandExecutor
         
         private List<string> ParseArguments(string input)
         {
-            // Простейший парсер: разбиваем по пробелам, можно заменить на более сложный при необходимости
-            return new List<string>(input.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries));
+            var args = new List<string>();
+            var currentArg = new StringBuilder();
+            bool inQuotes = false;
+
+            for (int i = 0; i < input.Length; i++)
+            {
+                char c = input[i];
+
+                if (c == '"')
+                {
+                    inQuotes = !inQuotes;
+                }
+                else if (char.IsWhiteSpace(c) && !inQuotes)
+                {
+                    if (currentArg.Length > 0)
+                    {
+                        args.Add(currentArg.ToString());
+                        currentArg.Clear();
+                    }
+                }
+                else
+                {
+                    currentArg.Append(c);
+                }
+            }
+
+            if (currentArg.Length > 0)
+            {
+                args.Add(currentArg.ToString());
+            }
+
+            return args;
         }
         
         private void BuildModel(string xmlPath, string savePath)
